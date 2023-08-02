@@ -5,9 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso Pandas UFOB</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+
 </head>
 <body>
-    <h1>Curso Pandas</h1>
-    <h2>Universidade Federal do Oeste da Bahia</h2>
+    <header>
+        <h1>Universidade Federal do Oeste da Bahia</h1>
+        <h2>Curso de Pandas - Python</h2>
+    </header>   
+    <div class="math"> 
+        <h3>1. Introdução ao Pandas</h3>
+        <p>
+            Pandas é uma biblioteca do Python de código aberto para análise de dados.
+            Ela é uma ferramenta poderosa para a manipulação de dados.
+            Nesse curso, veremos as principais ferramentas dessa biblioteca
+            e como ela pode ser útil para quem trabalha com excel. O pandas  pode 
+            ser usado em conjunto com outras bibliotecas de processamento numérico, 
+            como o Numpy e Scipy, e bibliotecas de visualização de dados como Matplotlib e Plotly. 
+            É desejável que o leitor tenha conhecimento de conceitos básicos de Python, como listas,
+             dicionários, etc. A documentação do pandas pode ser encontrada em 
+             https://pandas.pydata.org/.
+        <p>
+            
+            
+        </p>  
+        Usaremos a seguinte convenção para importação do pandas: <br>
+        <strong>In [1]: import pandas as pd</strong> <br>
+        Portanto, sempre que aparecer <strong>.pd</strong> no código, será uma 
+        referência ao pandas. Estudaremos duas classes do pandas: Séries e 
+        DataFrames. Temos também a opção de importar diretamente <br>
+        <strong>In [2]: from pandas import Series, DataFrame</strong>
+
+        <br>
+        \<section>
+            <h3>1.1 Séries</h3>
+
+            <p>
+                Uma série é objeto contendo uma sequência de valores e 
+                um array associado de índices. Pense em uma planilha do excel 
+                com uma única coluna. Considere a lista contendo cinco números 
+                <br>
+                <strong>In [1]: lista = [4, 7, -8, 2,-1]</strong>
+                <br>
+                Podemos transformar essa lista em uma Série
+                <br>
+                <strong>In [2]: obj = pd.Series(lista)</strong>
+                <br>
+                <strong>In [3]: obj</strong>
+                <br>
+                <strong>Out [3]:</strong> 
+                <br>
+                \(\begin{array}{rr}
+                0 & 4 \\ 
+                1 & 7 \\ 
+                2 & -8 \\ 
+                3 & 2 \\ 
+                4 & -1
+                \end{array}\)
+            </p>
+
+        </section>
+
+
+         
+          
+        
+        </p>
+        
+
+    </div>
 </body>
 </html>
