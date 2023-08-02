@@ -45,3 +45,7 @@ header{
 #universidade:hover{
     color: rgba(0, 0, 0, 0.801);
 }
+
+img{
+    padding: 5px;
+}
