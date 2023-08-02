@@ -22,9 +22,9 @@ header{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border: 2px solid ;
+    border: 2px solid #00008b;
     border-radius: 5px;
-    box-shadow: 0 4px 4px 0;
+    box-shadow: 0 4px 4px 0 #00008b;
     padding: 10px;
 }
 
