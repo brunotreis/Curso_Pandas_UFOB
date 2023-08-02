@@ -37,3 +37,11 @@ header{
     margin: 10px;
     padding: 10px;
 }
+
+#universidade{
+    text-decoration: none;
+    color: black;
+}
+#universidade:hover{
+    color: rgba(0, 0, 0, 0.801);
+}
